@@ -3,6 +3,7 @@
 ## To run tests locally
 
 ```go
+export GO111MODULE="on" 
 go mod vendor
 go test ./...
 ```
